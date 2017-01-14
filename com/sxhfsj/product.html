@@ -28,14 +28,26 @@
     <script> header() </script>
 
     <div class="product">
-        <div class="product_category"> <span><a onclick="">医疗护理卫生用品</a></span> </div>
-        <div class="product_category"> <span><a onclick="">塑料包装制品</a></span> </div>
-        <div class="product_category"> <span><a onclick="">医疗器械配套件</a></span> </div>
-        <div class="product_category"> <span><a onclick="">工程塑料精密注塑件</a></span> </div>
+        <div class="product_category"> <span><a onclick="show_product(0)">医疗护理卫生用品</a></span> </div>
+        <div class="product_category"> <span><a onclick="show_product(1)">塑料包装制品</a></span> </div>
+        <div class="product_category"> <span><a onclick="show_product(2)">医疗器械配套件</a></span> </div>
+        <div class="product_category"> <span><a onclick="show_product(3)">工程塑料精密注塑件</a></span> </div>
     </div>
 
-    <div class="product">
-        <span><script> get_product_imgs(weisheng_cat, weisheng_items, weisheng_descs) </script></span>
+    <div id="weisheng" class="product" style="display:block">
+        <script> get_product_imgs(weisheng_cat, weisheng_items, weisheng_descs) </script>
+    </div>
+
+    <div id="shuliaobaozhuang" class="product" style="display:none">
+        <script> get_product_imgs(shuliaobaozhuang_cat, shuliaobaozhuang_items, shuliaobaozhuang_descs) </script>
+    </div>
+
+    <div id="yiliaoqixie" class="product" style="display:none">
+        <script> get_product_imgs(yiliaoqixie_cat, yiliaoqixie_items, yiliaoqixie_descs) </script>
+    </div>
+
+    <div id="gongchengsujian" class="product" style="display:none">
+        <script> get_product_imgs(gongchengsujian_cat, gongchengsujian_items, gongchengsujian_descs) </script>
     </div>
 
     <script> footer() </script>
