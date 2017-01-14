@@ -41,7 +41,7 @@ function show_product(idx) {
         cat_obj.style.backgroundColor = "#EFFBFB";
         if (i==idx) {
             obj.style.display = "block";
-            cat_obj.style.backgroundColor = "#FF4000";
+            cat_obj.style.backgroundColor = "#BDBDBD";
         }
     }
 }
