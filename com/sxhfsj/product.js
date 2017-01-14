@@ -32,12 +32,16 @@ function get_product_imgs(category, items, descs) {
 }
 
 var objs = new Array("weisheng", "shuliaobaozhuang", "yiliaoqixie", "gongchengsujian")
+var cat_objs = new Array("cat0", "cat1","cat2","cat3")
 function show_product(idx) {
     for(var i = 0; i < objs.length; ++i) {
         obj = typeof objs[i] == "string" ? document.getElementById(objs[i]) : objs[i];
         obj.style.display = "none";
+        cat_obj = typeof cat_objs[i] == "string" ? document.getElementById(cat_objs[i]) : cat_objs[i];
+        cat_obj.style.backgroundColor = "#EFFBFB";
         if (i==idx) {
             obj.style.display = "block";
+            cat_obj.style.backgroundColor = "#FF4000";
         }
     }
 }
