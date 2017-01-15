@@ -38,6 +38,10 @@ function header() {
     document.write(head_text);
 }
 
+function main_left() {
+
+}
+
 function footer() {
     var foot_text = "<div class=\"footer\">  版权 © 陕西弘方塑胶有限公司 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 陕ICP备17000599号 </div>";
     document.write(foot_text);
