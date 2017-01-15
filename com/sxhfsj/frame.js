@@ -28,7 +28,7 @@ function header() {
             + "<li><a href=\"/com/sxhfsj/hire.html\">企业招聘</a></li>"
             + "<li><a href=\"/com/sxhfsj/intro.html\">企业介绍</a></li>"
             + "<li><a href=\"/com/sxhfsj/news.html\">企业动态</a></li>"
-            + "<li><a href=\"/com/sxhfsj/contact.html\">联系方式</a></li>"
+            + "<li><a href=\"/com/sxhfsj/contact.html\">联系我们</a></li>"
             + "</ul>"
             + "</td>"
             + "<td width=\"7%\"></td>"
