@@ -11,12 +11,17 @@
     <link rel="stylesheet" type="text/css" href="../../mystyle.css" />
     <script type="text/javascript" src="frame.js"></script>
     <script type="text/javascript" src="product.js"></script>
+    <script type="text/javascript" src="../../js/sxhfsj.js"></script>
     <style type="text/css">
-        .product {  width:90%;  position: relative;  text-align: center; margin:0px auto;  }
-        .product .product_category { background-color: #EFFBFB; float:left; width:24%; height: 32px; margin: 20px 0.5%;}
-        .product .product_category span{
+        #demo{width:100%; margin:0px; overflow:hidden; position:relative; }
+        #indemo{ float:left; width:800%;}
+        #demo1 {float:left;}
+        #demo2 {float:left;}
+        #indemo ul li{ float:left; margin: 0 12px; display:inline;}
+
+        .span_css {
             font-family: STKaiti,KaiTi,STFangsong,FangSong,'Microsoft Yahei', '微软雅黑';
-            font-size:18px; font-weight:bold; display:inline-block; padding:6px 0 10px 5px; letter-spacing:4px;
+            font-size:18px; font-weight:bold; display:inline-block; letter-spacing:4px;
         }
     </style>
 </head>
@@ -27,10 +32,83 @@
 <div class="main_body" >
     <script> header() </script>
 
-    <p>更新中。。。</p>
+        <div style="width: 90%; margin: 0 auto">
+            <div style="border-bottom:1px dashed #379be9; margin: 20px 0px;">
+                <span class="span_css">医疗护理卫生用品系列产品发布</span>
+            </div>
+            <div>
+                <p style="text-indent: 2em; margin: 5px 0; letter-spacing: 1px; line-height:25px; font-size:14px;">
+                近期公司开发出医疗护理卫生用品系列的塑料产品，包括小便器（尿壶）、脸盆、大便器（便盆）、痰盂。并在西部医疗器械保健品交易中心设立了销售门店，积极拓展新的市场。
+                </p>
+            </div>
+            <ul style="WIDTH: 100%; margin-left:0px; padding-left: 0px; list-style: none">
+                <div id="demo">
+                    <div id="indemo">
+                        <div id="demo1">
+                            <li style="FLOAT: left; OVERFLOW: hidden; MARGIN-RIGHT: 17px; height: auto;margin-top:5px;">
+                                <div class="product_img">
+                                    <img src="../../source/weisheng/lianpen.jpg" style="border:none; padding-top:2px;">
+                                </div>
 
+                            </li>
+                            <li style="FLOAT: left; OVERFLOW: hidden; MARGIN-RIGHT: 17px;height: auto;margin-top:5px;">
+                                <div class="product_img">
+                                    <img src="../../source/weisheng/tanyu.jpg" style="border:none; padding-top:2px;">
+                                </div>
+                            </li>
+                            <li style="FLOAT: left; OVERFLOW: hidden; MARGIN-RIGHT: 17px;height: auto;margin-top:5px;">
+                                <div class="product_img">
+                                    <img src="../../source/weisheng/bianpen.jpg" style="border:none; padding-top:2px;">
+                                </div>
+                            </li>
+                            <li style="FLOAT: left; OVERFLOW: hidden; MARGIN-RIGHT: 17px;height: auto;margin-top:5px;">
+                                <div class="product_img">
+                                    <img src="../../source/weisheng/dabianyiti.jpg" style="border:none; padding-top:2px;">
+                                </div>
+                            </li>
+                            <li style="FLOAT: left; OVERFLOW: hidden; MARGIN-RIGHT: 17px;height: auto;;margin-top:5px;">
+                                <div class="product_img">
+                                    <img src="../../source/weisheng/dabianfenti.jpg" style="border:none; padding-top:2px;">
+                                </div>
+                            </li>
+                            <li style="FLOAT: left; OVERFLOW: hidden; MARGIN-RIGHT: 17px;height: auto;margin-top:5px;">
+                                <div class="product_img">
+                                    <img src="../../source/weisheng/xiaobiangirl.jpg" style="border:none; padding-top:2px;">
+                                </div>
+                            </li>
+                            <li style="FLOAT: left; OVERFLOW: hidden; MARGIN-RIGHT: 17px;height: auto;margin-top:5px;">
+                                <div class="product_img">
+                                    <img src="../../source/weisheng/xiaobianboy.jpg" style="border:none; padding-top:2px;">
+                                </div>
+                            </li>
+                        </div>
+                        <div id="demo2"></div>
+                    </div>
+                </div>
+            </ul>
+        </div>
     <script> footer() </script>
 </div>
+    <script>
+        var speed=20;
+        var tab=document.getElementById("demo");
+        var tab1=document.getElementById("demo1");
+        var tab2=document.getElementById("demo2");
+        tab2.innerHTML=tab1.innerHTML;
+
+        function Marquee(){
+            if(tab2.offsetWidth-tab.scrollLeft<=0)
+                tab.scrollLeft-=tab1.offsetWidth
+            else{
+                tab.scrollLeft++;
+            }
+        }
+        var MyMar=setInterval(Marquee,speed);
+        tab.onmouseover=function() {clearInterval(MyMar)};
+        tab.onmouseout=function() {MyMar=setInterval(Marquee,speed)};
+    </script>
+    <script type="text/javascript" src="../../js/jquery-1.8.0.min.js"></script>
+    <script type="text/javascript" src="../../js/jquery.jslides.js"></script>
 </body>
 
 </html>
