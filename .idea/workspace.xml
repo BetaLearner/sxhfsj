@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="706b5ca6-31cf-40cd-aa03-864b6072a49e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-    </list>
+    <list default="true" id="706b5ca6-31cf-40cd-aa03-864b6072a49e" name="Default" comment="" />
     <ignored path="sxhfsj.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -26,7 +24,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
+            <state relative-caret-position="273">
               <caret line="232" column="63" selection-start-line="232" selection-start-column="63" selection-end-line="232" selection-end-column="63" />
               <folding>
                 <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -486,15 +484,15 @@
       <workItem from="1484445309994" duration="21969000" />
       <workItem from="1484493602225" duration="1052000" />
       <workItem from="1484494815253" duration="836000" />
-      <workItem from="1484576389228" duration="1767000" />
+      <workItem from="1484576389228" duration="2063000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77524000" />
+    <option name="totallyTimeSpent" value="77820000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="709" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="709" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2046875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -965,7 +963,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
+        <state relative-caret-position="273">
           <caret line="232" column="63" selection-start-line="232" selection-start-column="63" selection-end-line="232" selection-end-column="63" />
           <folding>
             <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
