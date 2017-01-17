@@ -8,7 +8,7 @@ var weisheng_descs = new Array("脸盆", "痰盂", "便盆", "一体便盆", "�
 
 var shuliaobaozhuang_cat = "shuliaobaozhuang";
 var shuliaobaozhuang_items = new Array("100ml_ps.jpg", "80_ps.jpg", "160ml_ps.jpg", "450g_ps.jpg", "180pet_ps.jpg", "rhy_ps.jpg", "50_ps.jpg", "60ml_ps.jpg");
-var shuliaobaozhuang_descs = new Array("普通盖塑料瓶", "撕拉盖塑料瓶", "压旋盖塑料瓶", "塑料桶盒", "液体塑料瓶", "液体塑料瓶", "液体塑料瓶", "液体塑料瓶");
+var shuliaobaozhuang_descs = new Array("100ml固体塑料瓶 ￠48×85", "80ml撕拉盖固体塑料瓶 ￠48×75", "160ml扁方塑料瓶55×45×102", "450g塑料桶 ￠97×83", "180ml液体PET塑料瓶￠51×137", "润滑油添加剂瓶", "50ml滴液瓶￠38×98", "60ml喷雾瓶￠36×128");
 
 var yiliaoqixie_cat = "yiliaoqixie";
 var yiliaoqixie_items = new Array("nijiaotuizhuqi.jpg");

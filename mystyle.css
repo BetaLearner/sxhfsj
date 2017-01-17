@@ -44,7 +44,7 @@
 .product_img {  margin:3px;   border:1px solid #bebebe;  height:auto;  width:auto;  float:left;  text-align:center;  }
 .product_img img {  display:inline;  margin:5px;  border:1px solid #bebebe;  height:180px}
 .product_img a:hover img {  border:1px solid #333333;  }
-.product_img .desc {  text-align:center;  font-weight:normal;  width:150px;  font-size:12px;  margin:10px 5px 10px 5px;  }
+.product_img .desc {  text-align:center;  font-weight:normal;  width:auto;  font-size:12px;  margin:10px 0px 10px 0px;  }
 
 .footer {
     background-color:#379be9;  color:white;  clear:both;  text-align:center;
