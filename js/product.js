@@ -22,8 +22,8 @@ function get_product_imgs(category, items, descs) {
     var ret = "";
     for(var i = 0; i < items.length; ++i) {
         ret += "<div class=\"product_img\">"
-            + "<a target=\"_blank\" href=\"../../source/"+category+"/" + items[i] + "\">"
-            + "<img src=\"../../source/" + category + "/" + items[i] + "\" alt=\"Ballade\">"
+            + "<a target=\"_blank\" href=\"source/"+category+"/" + items[i] + "\">"
+            + "<img src=\"source/" + category + "/" + items[i] + "\" alt=\"Ballade\">"
             + "</a>"
             + "<div class=\"desc\">" + descs[i] + "</div>"
             + "</div>";
