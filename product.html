@@ -54,6 +54,14 @@
         <script> get_product_imgs(gongchengsujian_cat, gongchengsujian_items, gongchengsujian_descs) </script>
     </div>
 
+    <script type="text/javascript">
+        var idx_str = GetQueryArgValue("product_cat");
+        var idx = 0;
+        if (idx_str != null) {
+            idx = new Number(idx_str);
+        }
+        show_product(idx);
+    </script>
     <script> footer() </script>
 </div>
 </body>

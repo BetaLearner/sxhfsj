@@ -16,3 +16,4 @@ function openShutManager(oSourceObj, id1, id2, tip1,tip2){
         sourceObj.innerHTML = tip1;
     }
 }
+
