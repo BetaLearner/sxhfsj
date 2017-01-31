@@ -38,7 +38,7 @@ function plaform_style(id) {
     };
     if (isMobile.any()) { //判断是否为android,BlackBerry,ios,windows
         //要执行的代码
-        targetObj.style.width = "100%";
+        targetObj.style.width = "95%";
     } else {
         targetObj.style.width = "80%";
     }
