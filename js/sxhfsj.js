@@ -17,3 +17,29 @@ function openShutManager(oSourceObj, id1, id2, tip1,tip2){
     }
 }
 
+function plaform_style(id) {
+    var targetObj = typeof id == "string" ? document.getElementById(id) : id;
+    var isMobile = {
+        Android: function () {
+            return navigator.userAgent.match(/Android/i) ? true : false;
+        },
+        BlackBerry: function () {
+            return navigator.userAgent.match(/BlackBerry/i) ? true : false;
+        },
+        iOS: function () {
+            return navigator.userAgent.match(/iPhone|iPad|iPod/i) ? true : false;
+        },
+        Windows: function () {
+            return navigator.userAgent.match(/IEMobile/i) ? true : false;
+        },
+        any: function () {
+            return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Windows());
+        }
+    };
+    if (isMobile.any()) { //判断是否为android,BlackBerry,ios,windows
+        //要执行的代码
+        targetObj.style.width = "100%";
+    } else {
+        targetObj.style.width = "80%";
+    }
+}
