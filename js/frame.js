@@ -82,7 +82,7 @@ function left_nav(need_cat, need_con, need_link) {
             + "</div>"
             + "<div class=\"left_content\">"
             + "<ul style=\"list-style-type:none; margin:0; padding:0\">"
-            + "<li><span>联系人：</span>方圆</li>"
+            + "<li><span>联系人：</span>方经理</li>"
             + "<li><span>电话：</span>029-89309711</li>"
             + "<li><span>手机：</span>17792573394</li>"
             + "<li><span>生产地址：</span>陕西省西咸新区沣东新城斗门西街48号</li>"
