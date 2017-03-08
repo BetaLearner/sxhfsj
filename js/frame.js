@@ -101,7 +101,6 @@ function left_nav(need_cat, need_con, need_link) {
             + "<ul style=\"list-style-type:none; margin:0; padding:0;\">"
             + "<li><a href=\"http://xa.58.com/sou/?key=%E5%BC%98%E6%96%B9%E5%A1%91%E8%83%B6\" target=\"_blank\"><span>弘方塑胶58同城招聘信息</span></a></li>"
             + "<li style=\"padding: 5px 0 5px 0\"><a href=\"http://kissyuebing.plasway.com/\" target=\"_blank\"><span>陕西西安方圆医药包装</span></a></li>"
-            + "<!--<li><a href=\"http://sxfyyybzzp.cn.biz72.com/\" target=\"_blank\"><span>陕西西安方圆医药包装商务联盟</span></a></li>-->"
             + "</ul>"
             + "</div>"
     var ret = "<div class=\"main_left\">"
