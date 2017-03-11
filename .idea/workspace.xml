@@ -2,38 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="706b5ca6-31cf-40cd-aa03-864b6072a49e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/silagai/75.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/silagai/80_new.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/silagai/80_ps.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/silagai/90.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/yaxuangai/110ml扁方.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/yaxuangai/130yx.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/yaxuangai/150ml直桶.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/yaxuangai/150y.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/yaxuangai/160ml_ps.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/yaxuangai/200ml扁方.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/yeti/100pe.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/yeti/100pet.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/yeti/120pet.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/yeti/180pet.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/yeti/180pet_ps.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/yeti/35.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/yeti/50.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/yeti/50_ps.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/yeti/60ml_ps.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/yeti/rhy_ps.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/yeti/tmp.JPG" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/yaxuangai/110ml.jpg" afterPath="$PROJECT_DIR$/source/yaxuangai/110ml.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/yaxuangai/160ml.jpg" afterPath="$PROJECT_DIR$/source/yaxuangai/160ml.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/yaxuangai/220ml.jpg" afterPath="$PROJECT_DIR$/source/yaxuangai/220ml.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/yaxuangai/225ml.jpg" afterPath="$PROJECT_DIR$/source/yaxuangai/225ml.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/yaxuangai/30ml.jpg" afterPath="$PROJECT_DIR$/source/yaxuangai/30ml.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/yaxuangai/60ml.jpg" afterPath="$PROJECT_DIR$/source/yaxuangai/60ml.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/yeti/200ml.jpg" afterPath="$PROJECT_DIR$/source/yeti/200ml.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/yeti/60ml.jpg" afterPath="$PROJECT_DIR$/source/yeti/60ml.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/yeti/rhy.JPG" afterPath="$PROJECT_DIR$/source/yeti/rhy.JPG" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/product.js" afterPath="$PROJECT_DIR$/js/product.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product.html" afterPath="$PROJECT_DIR$/product.html" />
     </list>
     <ignored path="sxhfsj.iws" />
@@ -92,8 +60,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4125">
-              <caret line="275" column="12" selection-start-line="275" selection-start-column="12" selection-end-line="275" selection-end-column="12" />
+            <state relative-caret-position="375">
+              <caret line="53" column="44" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="44" />
               <folding>
                 <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h1#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -152,8 +120,8 @@
       <file leaf-file-name="product.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/product.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="315" column="56" selection-start-line="315" selection-start-column="56" selection-end-line="315" selection-end-column="56" />
+            <state relative-caret-position="3915">
+              <caret line="313" column="4" selection-start-line="313" selection-start-column="4" selection-end-line="313" selection-end-column="4" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -195,6 +163,7 @@
                 <element signature="n#style#0;n#div#4;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#5;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
@@ -519,12 +488,12 @@
       <workItem from="1488722435321" duration="131000" />
       <workItem from="1488984089377" duration="1662000" />
       <workItem from="1489065573895" duration="3889000" />
-      <workItem from="1489236864473" duration="6731000" />
+      <workItem from="1489236864473" duration="7137000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123793000" />
+    <option name="totallyTimeSpent" value="124199000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="709" extended-state="6" />
@@ -693,10 +662,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="51" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/sxhfsj.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding>
+            <element signature="n#!!doc;n#openShutManager#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sxhfsj.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="47" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/product.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="27" column="54" selection-start-line="26" selection-start-column="27" selection-end-line="27" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4125">
-          <caret line="275" column="12" selection-start-line="275" selection-start-column="12" selection-end-line="275" selection-end-column="12" />
+        <state relative-caret-position="375">
+          <caret line="53" column="44" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="44" />
           <folding>
             <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h1#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -751,44 +754,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/news.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="51" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/sxhfsj.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-          <folding>
-            <element signature="n#!!doc;n#openShutManager#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sxhfsj.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="47" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/product.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="27" column="54" selection-start-line="26" selection-start-column="27" selection-end-line="27" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/product.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="315" column="56" selection-start-line="315" selection-start-column="56" selection-end-line="315" selection-end-column="56" />
+        <state relative-caret-position="3915">
+          <caret line="313" column="4" selection-start-line="313" selection-start-column="4" selection-end-line="313" selection-end-column="4" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -830,6 +799,7 @@
             <element signature="n#style#0;n#div#4;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#5;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
