@@ -33,12 +33,9 @@ function get_product_imgs(category, items, sources, descs) {
         ret += "<div class=\"product_img\">"
             + "<a target=\"_blank\" href=\"source/"+category+"/" + sources[i] + "\">"
             + "<img src=\"source/" + category + "/" + items[i] + "\" alt=\"Ballade\">"
-            + "</a>";
-        if(descs) {
-            ret += "<div class=\"desc\">" + descs[i] + "</div>";
-        }
+            + "</a>"
             //+ "<div class=\"desc\">" + descs[i] + "</div>"
-        ret += "</div>";
+            + "</div>";
     }
     document.write(ret);
 }
