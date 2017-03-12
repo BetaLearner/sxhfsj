@@ -41,7 +41,7 @@
 .main_right p { text-indent: 2em; margin: 5px 0; letter-spacing: 1px; line-height:25px; font-size:14px;}
 .main_right a {text-decoration:none; color:#00BFFF;}
 
-.product_img {  margin:3px;   border:1px solid #bebebe;  height:auto;  width:auto;  float:left;  text-align:center;  }
+.product_img {  margin:3px;     height:auto;  width:auto;  float:left;  text-align:center;  }
 .product_img img {  display:inline;  margin:5px;  border:1px solid #bebebe;  height:180px}
 .product_img a:hover img {  border:1px solid #333333;  }
 .product_img .desc {  text-align:center;  font-weight:normal;  width:auto;  font-size:12px;  margin:10px 0px 10px 0px;  }
