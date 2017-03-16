@@ -9,9 +9,14 @@
     <meta name="description" content="陕西弘方塑胶有限公司,中国 陕西 西安市 主营普通固体塑料瓶、撕拉盖塑料瓶塑料桶盒、压旋盖塑料瓶、液体塑料瓶、卫生用品等" />
     <link rel="shortcut icon" type="image/x-icon" href="source/logo.ico" media="screen" />
     <link rel="stylesheet" type="text/css" href="sxhfsj.css" />
+    <link href="css/zoom.css" rel="stylesheet">
     <script type="text/javascript" src="js/frame.js"></script>
     <script type="text/javascript" src="js/product.js"></script>
     <script type="text/javascript" src="js/sxhfsj.js"></script>
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/transition.js"></script>
+    <script type="text/javascript" src="js/zoom.js"></script>
+
     <style type="text/css">
         .product {  width:100%;  position: relative;  text-align: center; margin:0px auto;  }
         .product .product_category { background-color: #EFFBFB; float:left;  height: 32px; margin: 20px 0.5%;}
@@ -23,6 +28,9 @@
             color:#000000;  text-align:center;  padding:0;  text-decoration:none;  text-transform:uppercase;
         }
         .product a:hover,a:active {  background-color:SkyBlue; }
+        .product_img {  margin:3px;     height:auto;  width:auto;  float:left;  text-align:center;  }
+        .product_img img {  display:inline;  margin:5px;  border:1px solid #bebebe;  height:180px;}
+        .product .product_img img:hover {  border:1px solid #333333;  cursor:pointer}
 
     </style>
 </head>
@@ -45,117 +53,79 @@
 
     <div id="weisheng" class="product" style="display:block; clear: both">
         <div class="product_img">
-            <a target="_blank" href="source/weisheng/1_400.jpg">
-                <img src="source/weisheng/1.jpg" alt="Ballade">
-            </a>
+            <img src="source/weisheng/1.jpg" alt="Ballade" data-action="zoom">
         </div>
         <div class="product_img" >
-            <a target="_blank" href="source/weisheng/2_400.jpg">
-                <img src="source/weisheng/2.jpg" alt="Ballade">
-            </a>
+            <img src="source/weisheng/2.jpg" alt="Ballade" data-action="zoom">
         </div>
         <div class="product_img" >
-            <a target="_blank" href="source/weisheng/3_400.jpg">
-                <img src="source/weisheng/3.jpg" alt="Ballade">
-            </a>
+            <img src="source/weisheng/3.jpg" alt="Ballade" data-action="zoom">
         </div>
         <div class="product_img" >
-            <a target="_blank" href="source/weisheng/4_400.jpg">
-                <img src="source/weisheng/4.jpg" alt="Ballade">
-            </a>
+                <img src="source/weisheng/4.jpg" alt="Ballade" data-action="zoom">
         </div>
         <div class="product_img" >
-            <a target="_blank" href="source/weisheng/5_400.jpg">
-                <img src="source/weisheng/5.jpg" alt="Ballade">
-            </a>
+                <img src="source/weisheng/5.jpg" alt="Ballade" data-action="zoom">
         </div>
         <div class="product_img" >
-            <a target="_blank" href="source/weisheng/6_400.jpg">
-                <img src="source/weisheng/6.jpg" alt="Ballade">
-            </a>
+                <img src="source/weisheng/6.jpg" alt="Ballade" data-action="zoom">
         </div>
         <div class="product_img" >
-            <a target="_blank" href="source/weisheng/7_400.jpg">
-                <img src="source/weisheng/7.jpg" alt="Ballade">
-            </a>
+                <img src="source/weisheng/7.jpg" alt="Ballade" data-action="zoom">
         </div>
         <div class="product_img" >
-            <a target="_blank" href="source/weisheng/8_400.jpg">
-                <img src="source/weisheng/8.jpg" alt="Ballade">
-            </a>
+                <img src="source/weisheng/8.jpg" alt="Ballade" data-action="zoom">
         </div>
         <div class="product_img" >
-            <a target="_blank" href="source/weisheng/9_400.jpg">
-                <img src="source/weisheng/9.jpg" alt="Ballade">
-            </a>
+                <img src="source/weisheng/9.jpg" alt="Ballade" data-action="zoom">
         </div>
         <div class="product_img" >
-            <a target="_blank" href="source/weisheng/10_400.jpg">
-                <img src="source/weisheng/10.jpg" alt="Ballade">
-            </a>
+                <img src="source/weisheng/10.jpg" alt="Ballade" data-action="zoom">
         </div>
         <!-- <script> get_product_imgs(weisheng_cat, weisheng_items, weisheng_source, weisheng_descs) </script> -->
     </div>
 
     <div id="putong" class="product" style="display:none; clear: both">
         <div class="product_img" style="width:19%; ">
-            <a target="_blank" href="source/putongguti/30ml.jpg">
-                <img src="source/putongguti/30ml.jpg" alt="Ballade">
-            </a>
+                <img src="source/putongguti/30ml.jpg" alt="Ballade" data-action="zoom">
             <div class="desc">30ml固体塑料瓶 ￠34×58</div>
         </div>
         <div class="product_img" style="width:19%; ">
-            <a target="_blank" href="source/putongguti/60ml.jpg">
-                <img src="source/putongguti/60ml.jpg" alt="Ballade">
-            </a>
+                <img src="source/putongguti/60ml.jpg" alt="Ballade" data-action="zoom">
             <div class="desc">60ml固体塑料瓶 ￠41×70</div>
         </div>
         <div class="product_img" style="width:19%; ">
-            <a target="_blank" href="source/putongguti/70ml.jpg">
-                <img src="source/putongguti/70ml.jpg" alt="Ballade">
-            </a>
+                <img src="source/putongguti/70ml.jpg" alt="Ballade" data-action="zoom">
             <div class="desc">70ml固体塑料瓶 ￠42×80</div>
         </div>
         <div class="product_img" style="width:19%; ">
-            <a target="_blank" href="source/putongguti/80ml.jpg">
-                <img src="source/putongguti/80ml.jpg" alt="Ballade">
-            </a>
+                <img src="source/putongguti/80ml.jpg" alt="Ballade" data-action="zoom">
             <div class="desc">80ml固体塑料瓶 ￠45×82</div>
         </div>
         <div class="product_img" style="width:19%; ">
-            <a target="_blank" href="source/putongguti/100ml.jpg">
-                <img src="source/putongguti/100ml.jpg" alt="Ballade">
-            </a>
+                <img src="source/putongguti/100ml.jpg" alt="Ballade" data-action="zoom">
             <div class="desc">100ml固体塑料瓶 ￠48×85</div>
         </div>
         <div class="product_img" style="width:19%; ">
             <a target="_blank" href="source/putongguti/110ml.jpg">
-                <img src="source/putongguti/110ml.jpg" alt="Ballade">
+                <img src="source/putongguti/110ml.jpg" alt="Ballade" data-action="zoom">
             </a>
             <div class="desc">110ml固体塑料瓶 ￠48×88</div>
         </div>
         <div class="product_img" style="width:19%; ">
-            <a target="_blank" href="source/putongguti/120ml_3.jpg">
-                <img src="source/putongguti/120ml_3.jpg" alt="Ballade">
-            </a>
+                <img src="source/putongguti/120ml_3.jpg" alt="Ballade" data-action="zoom">
             <div class="desc">120ml固体塑料瓶 ￠48×97</div>
         </div>
         <div class="product_img" style="width:19%; ">
-            <a target="_blank" href="source/putongguti/120ml_1.jpg">
-                <img src="source/putongguti/120ml_1.jpg" alt="Ballade">
-            </a>
+                <img src="source/putongguti/120ml_1.jpg" alt="Ballade" data-action="zoom">
             <div class="desc">120ml固体大口塑料瓶 ￠52×87</div>
         </div>
         <div class="product_img" style="width:19%; ">
-            <a target="_blank" href="source/putongguti/120ml_2.jpg">
-                <img src="source/putongguti/120ml_2.jpg" alt="Ballade">
-            </a>
+                <img src="source/putongguti/120ml_2.jpg" alt="Ballade" data-action="zoom">
             <div class="desc">120ml固体塑料瓶 ￠48×90</div>
         </div>
         <div class="product_img" style="width:19%; ">
-            <a target="_blank" href="source/putongguti/350ml.jpg">
-                <img src="source/putongguti/350ml.jpg" alt="Ballade">
-            </a>
+                <img src="source/putongguti/350ml.jpg" alt="Ballade" data-action="zoom">
             <div class="desc">350ml固体塑料瓶 61×61×138</div>
         </div>
         <!-- <script> get_product_imgs(shuliaobaozhuang_cat, shuliaobaozhuang_items, shuliaobaozhuang_descs) </script> -->
@@ -163,21 +133,15 @@
 
     <div id="silagai" class="product" style="display:none;clear: both">
         <div class="product_img" style="width:25%; margin-left: 5%; margin-right: 5%">
-            <a target="_blank" href="source/silagai/75ml.jpg">
-                <img src="source/silagai/75ml.jpg" alt="Ballade">
-            </a>
+                <img src="source/silagai/75ml.jpg" alt="Ballade" data-action="zoom">
             <div class="desc">75ml撕拉盖固体塑料瓶 ￠48×70</div>
         </div>
         <div class="product_img" style="width:25%; margin-right: 5%">
-            <a target="_blank" href="source/silagai/80ml.jpg">
-                <img src="source/silagai/80ml.jpg" alt="Ballade">
-            </a>
+                <img src="source/silagai/80ml.jpg" alt="Ballade" data-action="zoom">
             <div class="desc">80ml撕拉盖固体塑料瓶 ￠48×75</div>
         </div>
         <div class="product_img" style="width:25%; ">
-            <a target="_blank" href="source/silagai/90ml.jpg">
-                <img src="source/silagai/90ml.jpg" alt="Ballade">
-            </a>
+                <img src="source/silagai/90ml.jpg" alt="Ballade" data-action="zoom">
             <div class="desc">90ml撕拉盖固体塑料瓶 ￠48×82</div>
         </div>
     </div>
@@ -185,79 +149,55 @@
     <div id="yaxuangai" class="product" style="display:none;clear: both">
         <div>
         <div class="product_img" style="width:23%;">
-            <a target="_blank" href="source/yaxuangai/30ml.jpg">
-                <img src="source/yaxuangai/30ml.jpg" alt="Ballade">
-            </a>
+                <img src="source/yaxuangai/30ml.jpg" alt="Ballade" data-action="zoom">
             <div class="desc">30ml固体压旋盖塑料瓶 l￠40×51</div>
         </div>
         <div class="product_img" style="width:23%; ">
-            <a target="_blank" href="source/yaxuangai/60ml.jpg">
-                <img src="source/yaxuangai/60ml.jpg" alt="Ballade">
-            </a>
+                <img src="source/yaxuangai/60ml.jpg" alt="Ballade" data-action="zoom">
             <div class="desc">60ml固体压旋盖塑料瓶 l￠40×73</div>
         </div>
         <div class="product_img" style="width:23%; ">
-            <a target="_blank" href="source/yaxuangai/100ml.jpg">
-                <img src="source/yaxuangai/100ml.jpg" alt="Ballade">
-            </a>
+                <img src="source/yaxuangai/100ml.jpg" alt="Ballade" data-action="zoom">
             <div class="desc">100ml金属盖PET塑料瓶 l￠46×84</div>
         </div>
         <div class="product_img" style="width:23%; ">
-            <a target="_blank" href="source/yaxuangai/110ml.jpg">
-                <img src="source/yaxuangai/110ml.jpg" alt="Ballade">
-            </a>
+                <img src="source/yaxuangai/110ml.jpg" alt="Ballade" data-action="zoom">
             <div class="desc">110ml扁方塑料瓶51×42×92</div>
         </div>
         </div>
         <div>
         <div class="product_img" style="width:23%; clear: both">
-            <a target="_blank" href="source/yaxuangai/110ml_1.jpg">
-                <img src="source/yaxuangai/110ml_1.jpg" alt="Ballade">
-            </a>
+                <img src="source/yaxuangai/110ml_1.jpg" alt="Ballade" data-action="zoom">
             <div class="desc">110ml固体压旋盖塑料瓶l￠46×92</div>
         </div>
         <div class="product_img" style="width:23%; ">
-            <a target="_blank" href="source/yaxuangai/150ml.jpg">
-                <img src="source/yaxuangai/150ml.jpg" alt="Ballade">
-            </a>
+                <img src="source/yaxuangai/150ml.jpg" alt="Ballade" data-action="zoom">
             <div class="desc">150ml固体压旋盖塑料瓶l￠54×97</div>
         </div>
         <div class="product_img" style="width:23%; ">
-            <a target="_blank" href="source/yaxuangai/150ml_1.jpg">
-                <img src="source/yaxuangai/150ml_1.jpg" alt="Ballade">
-            </a>
+                <img src="source/yaxuangai/150ml_1.jpg" alt="Ballade" data-action="zoom">
             <div class="desc">150ml直桶固体压旋盖塑料瓶l￠52×102</div>
         </div>
         <div class="product_img" style="width:23%; ">
-            <a target="_blank" href="source/yaxuangai/160ml.jpg">
-                <img src="source/yaxuangai/160ml.jpg" alt="Ballade">
-            </a>
+                <img src="source/yaxuangai/160ml.jpg" alt="Ballade" data-action="zoom">
             <div class="desc">160ml扁方塑料瓶55×45×102</div>
         </div>
         </div>
         <div>
         <div class="product_img" style="width:23%; clear: both">
-            <a target="_blank" href="source/yaxuangai/200ml.jpg">
-                <img src="source/yaxuangai/200ml.jpg" alt="Ballade">
-            </a>
+                <img src="source/yaxuangai/200ml.jpg" alt="Ballade" data-action="zoom">
             <div class="desc">200ml扁方塑料瓶56×45×117</div>
         </div>
         <div class="product_img" style="width:23%; ">
-            <a target="_blank" href="source/yaxuangai/220ml.jpg">
-                <img src="source/yaxuangai/220ml.jpg" alt="Ballade">
-            </a>
+                <img src="source/yaxuangai/220ml.jpg" alt="Ballade" data-action="zoom">
             <div class="desc">220ml固体压旋盖塑料瓶 l￠54×133</div>
         </div>
         <div class="product_img" style="width:23%; ">
-            <a target="_blank" href="source/yaxuangai/225ml.jpg">
-                <img src="source/yaxuangai/225ml.jpg" alt="Ballade">
-            </a>
+                <img src="source/yaxuangai/225ml.jpg" alt="Ballade" data-action="zoom">
             <div class="desc">225ml固体压旋盖塑料瓶 l￠61×113</div>
         </div>
         <div class="product_img" style="width:23%; ">
-            <a target="_blank" href="source/yaxuangai/300ml.jpg">
-                <img src="source/yaxuangai/300ml.jpg" alt="Ballade">
-            </a>
+                <img src="source/yaxuangai/300ml.jpg" alt="Ballade" data-action="zoom">
             <div class="desc">300ml扁方塑料瓶66×53×130</div>
         </div>
         </div>
@@ -266,64 +206,44 @@
 
     <div id="yeti" class="product" style="display:none;clear: both">
         <div class="product_img">
-            <a target="_blank" href="source/yeti/30ml.jpg">
-                <img src="source/yeti/30ml.jpg" alt="Ballade">
-            </a>
+                <img src="source/yeti/30ml.jpg" alt="Ballade" data-action="zoom">
             <div class="desc">30ml液体塑料瓶</div>
         </div>
         <div class="product_img">
-            <a target="_blank" href="source/yeti/35ml.jpg">
-                <img src="source/yeti/35ml.jpg" alt="Ballade">
-            </a>
+                <img src="source/yeti/35ml.jpg" alt="Ballade" data-action="zoom">
             <div class="desc">35ml滴液瓶￠32×86</div>
         </div>
         <div class="product_img">
-            <a target="_blank" href="source/yeti/50ml.jpg">
-                <img src="source/yeti/50ml.jpg" alt="Ballade">
-            </a>
+                <img src="source/yeti/50ml.jpg" alt="Ballade" data-action="zoom">
             <div class="desc">50ml滴液瓶￠38×98</div>
         </div>
         <div class="product_img">
-            <a target="_blank" href="source/yeti/60ml.jpg">
-                <img src="source/yeti/60ml.jpg" alt="Ballade">
-            </a>
+                <img src="source/yeti/60ml.jpg" alt="Ballade" data-action="zoom">
             <div class="desc">60ml喷雾瓶￠36×128</div>
         </div>
         <div class="product_img"  style="width:19%; ">
-            <a target="_blank" href="source/yeti/100ml_1.jpg">
-                <img src="source/yeti/100ml_1.jpg" alt="Ballade">
-            </a>
+                <img src="source/yeti/100ml_1.jpg" alt="Ballade" data-action="zoom">
             <div class="desc">100ml液体塑料瓶￠45×105</div>
         </div>
 
         <div class="product_img">
-            <a target="_blank" href="source/yeti/100ml_2.jpg">
-                <img src="source/yeti/100ml_2.jpg" alt="Ballade">
-            </a>
+                <img src="source/yeti/100ml_2.jpg" alt="Ballade" data-action="zoom">
             <div class="desc">100ml液体PET塑料瓶￠43×114</div>
         </div>
         <div class="product_img">
-            <a target="_blank" href="source/yeti/120ml.jpg">
-                <img src="source/yeti/120ml.jpg" alt="Ballade">
-            </a>
+                <img src="source/yeti/120ml.jpg" alt="Ballade" data-action="zoom">
             <div class="desc">120ml液体PET塑料瓶￠48×122</div>
         </div>
         <div class="product_img">
-            <a target="_blank" href="source/yeti/180ml.jpg">
-                <img src="source/yeti/180ml.jpg" alt="Ballade">
-            </a>
+                <img src="source/yeti/180ml.jpg" alt="Ballade" data-action="zoom">
             <div class="desc">180ml液体PET塑料瓶￠51×137</div>
         </div>
         <div class="product_img">
-            <a target="_blank" href="source/yeti/200ml.jpg">
-                <img src="source/yeti/200ml.jpg" alt="Ballade">
-            </a>
+                <img src="source/yeti/200ml.jpg" alt="Ballade" data-action="zoom">
             <div class="desc">200ml液体塑料瓶￠51×140</div>
         </div>
         <div class="product_img">
-            <a target="_blank" href="source/yeti/rhy.jpg">
-                <img src="source/yeti/rhy.jpg" alt="Ballade">
-            </a>
+                <img src="source/yeti/rhy.jpg" alt="Ballade" data-action="zoom">
             <div class="desc">润滑油添加剂瓶</div>
         </div>
         <!-- <script> get_product_imgs(yeti_cat, yeti_items, yeti_items, yeti_descs) </script> -->
@@ -331,39 +251,27 @@
 
     <div id="tonghe" class="product" style="display:none;clear: both">
         <div class="product_img" style="width:25%; margin-left: 5%; margin-right: 5%">
-            <a target="_blank" href="source/tonghe/400g.jpg">
-                <img src="source/tonghe/400g.jpg" alt="Ballade">
-            </a>
+                <img src="source/tonghe/400g.jpg" alt="Ballade" data-action="zoom">
             <div class="desc">400g塑料桶 ￠97×83</div>
         </div>
         <div class="product_img" style="width:25%; margin-right: 5%">
-            <a target="_blank" href="source/tonghe/450g.jpg">
-                <img src="source/tonghe/450g.jpg" alt="Ballade">
-            </a>
+                <img src="source/tonghe/450g.jpg" alt="Ballade" data-action="zoom">
             <div class="desc">450g塑料桶 ￠97×83</div>
         </div>
         <div class="product_img" style="width:25%; ">
-            <a target="_blank" href="source/tonghe/500g.jpg">
-                <img src="source/tonghe/500g.jpg" alt="Ballade">
-            </a>
+                <img src="source/tonghe/500g.jpg" alt="Ballade" data-action="zoom">
             <div class="desc">500g塑料桶 ￠87×108</div>
         </div>
         <div class="product_img" style="width:25%; margin-left: 5%; margin-right: 5%">
-            <a target="_blank" href="source/tonghe/550g.jpg">
-                <img src="source/tonghe/550g.jpg" alt="Ballade">
-            </a>
+                <img src="source/tonghe/550g.jpg" alt="Ballade" data-action="zoom">
             <div class="desc">550g塑料桶 ￠97×106</div>
         </div>
         <div class="product_img" style="width:25%; margin-right: 5%">
-            <a target="_blank" href="source/tonghe/600g.jpg">
-                <img src="source/tonghe/600g.jpg" alt="Ballade">
-            </a>
+                <img src="source/tonghe/600g.jpg" alt="Ballade" data-action="zoom">
             <div class="desc">600g塑料桶 ￠87×125</div>
         </div>
         <div class="product_img" style="width:25%; ">
-            <a target="_blank" href="source/tonghe/750g.jpg">
-                <img src="source/tonghe/750g.jpg" alt="Ballade">
-            </a>
+                <img src="source/tonghe/750g.jpg" alt="Ballade" data-action="zoom">
             <div class="desc">750g塑料桶 ￠100×130</div>
         </div>
         <!-- <script> get_product_imgs(tonghe_cat, tonghe_items, tonghe_items, tonghe_descs) </script> -->
@@ -371,21 +279,15 @@
     
     <div id="qita" class="product" style="display:none;clear: both">
         <div class="product_img" style="margin-left:1%; margin-right: 3%">
-            <a target="_blank" href="source/qita/nijiaotuizhuqi.jpg">
-                <img src="source/qita/nijiaotuizhuqi.jpg" alt="Ballade">
-            </a>
+                <img src="source/qita/nijiaotuizhuqi.jpg" alt="Ballade" data-action="zoom">
             <div class="desc">凝胶推注器</div>
         </div>
         <div class="product_img" style="margin-right: 3%">
-            <a target="_blank" href="source/qita/gongyesuliaojian.jpg">
-                <img src="source/qita/gongyesuliaojian.jpg" alt="Ballade">
-            </a>
+                <img src="source/qita/gongyesuliaojian.jpg" alt="Ballade" data-action="zoom">
             <div class="desc">工业塑料件</div>
         </div>
         <div class="product_img" style="">
-            <a target="_blank" href="source/qita/suliaobaohumao.jpg">
-                <img src="source/qita/suliaobaohumao.jpg" alt="Ballade">
-            </a>
+                <img src="source/qita/suliaobaohumao.jpg" alt="Ballade" data-action="zoom">
             <div class="desc">塑料保护帽</div>
         </div>
         <!-- <script> get_product_imgs(qita_cat, qita_items, qita_items, qita_descs) </script>-->
