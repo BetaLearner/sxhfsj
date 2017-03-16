@@ -117,7 +117,11 @@ function left_nav(need_cat, need_con, need_link) {
 }
 
 function footer() {
-    var foot_text = "<div class=\"footer\">  版权 © 陕西弘方塑胶有限公司 </div>"
-                + "<div style=\"text-align: center;font-size: 13px; margin-top: 5px\">陕ICP备17000599号</div>"
+    var foot_text = "<div class=\"footer\">"
+        + "<div style=\"margin-bottom: 5px; margin-top: 5px\">版权 © 陕西弘方塑胶有限公司</div>"
+        + "<div style=\"text-align: center;font-size: 13px; background-color: white; color: black; padding: 0px\">陕ICP备17000599号</div>"
+         +   "</div>";
+        //var foot_text = "<div class=\"footer\">  版权 © 陕西弘方塑胶有限公司 </div>"
+         //       + "<div style=\"text-align: center;font-size: 13px; margin-top: 5px\">陕ICP备17000599号</div>"
     document.write(foot_text);
 }
