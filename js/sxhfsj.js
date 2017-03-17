@@ -17,8 +17,9 @@ function openShutManager(oSourceObj, id1, id2, tip1,tip2){
     }
 }
 
-function plaform_style(id) {
+function plaform_style(id, id2) {
     var targetObj = typeof id == "string" ? document.getElementById(id) : id;
+    var targetObj1 = typeof id2 == "string" ? document.getElementById(id2) : id2;
     var isMobile = {
         Android: function () {
             return navigator.userAgent.match(/Android/i) ? true : false;
@@ -39,7 +40,13 @@ function plaform_style(id) {
     if (isMobile.any()) { //判断是否为android,BlackBerry,ios,windows
         //要执行的代码
         targetObj.style.width = "95%";
+        if(targetObj1) {
+            targetObj1.style.width = "95%";
+        }
     } else {
         targetObj.style.width = "80%";
+        if(targetObj1) {
+            targetObj1.style.width = "80%";
+        }
     }
 }
