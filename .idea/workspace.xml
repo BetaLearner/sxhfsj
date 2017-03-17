@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="706b5ca6-31cf-40cd-aa03-864b6072a49e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact.html" afterPath="$PROJECT_DIR$/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hire.html" afterPath="$PROJECT_DIR$/hire.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/intro.html" afterPath="$PROJECT_DIR$/intro.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/frame.js" afterPath="$PROJECT_DIR$/js/frame.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/sxhfsj.js" afterPath="$PROJECT_DIR$/js/sxhfsj.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news.html" afterPath="$PROJECT_DIR$/news.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product.html" afterPath="$PROJECT_DIR$/product.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sxhfsj.css" afterPath="$PROJECT_DIR$/sxhfsj.css" />
     </list>
     <ignored path="sxhfsj.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,7 +51,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
+            <state relative-caret-position="1548">
               <caret line="279" column="7" selection-start-line="279" selection-start-column="7" selection-end-line="279" selection-end-column="7" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -79,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="product.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="product.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/product.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="313" column="17" selection-start-line="313" selection-start-column="9" selection-end-line="313" selection-end-column="22" />
+            <state relative-caret-position="495">
+              <caret line="50" column="98" selection-start-line="50" selection-start-column="98" selection-end-line="50" selection-end-column="98" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -156,10 +147,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sxhfsj.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sxhfsj.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/sxhfsj.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
+            <state relative-caret-position="690">
               <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
               <folding>
                 <element signature="n#!!doc;n#openShutManager#0" expanded="false" />
@@ -252,13 +243,13 @@
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/sxhfsj.css" />
         <option value="$PROJECT_DIR$/js/frame.js" />
-        <option value="$PROJECT_DIR$/product.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/intro.html" />
         <option value="$PROJECT_DIR$/hire.html" />
         <option value="$PROJECT_DIR$/contact.html" />
         <option value="$PROJECT_DIR$/news.html" />
         <option value="$PROJECT_DIR$/js/sxhfsj.js" />
+        <option value="$PROJECT_DIR$/product.html" />
       </list>
     </option>
   </component>
@@ -441,12 +432,12 @@
       <workItem from="1489065573895" duration="3889000" />
       <workItem from="1489236864473" duration="7645000" />
       <workItem from="1489284573365" duration="5838000" />
-      <workItem from="1489416887054" duration="5834000" />
+      <workItem from="1489416887054" duration="6228000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136379000" />
+    <option name="totallyTimeSpent" value="136773000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="709" extended-state="6" />
@@ -604,16 +595,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="279" column="7" selection-start-line="279" selection-start-column="7" selection-end-line="279" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/intro.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
@@ -646,10 +627,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/frame.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1590">
+          <caret line="122" column="24" selection-start-line="122" selection-start-column="24" selection-end-line="122" selection-end-column="24" />
+          <folding>
+            <marker date="1489754005000" expanded="true" signature="262:286" ph="..." />
+            <marker date="1489754005000" expanded="true" signature="423:496" ph="..." />
+            <marker date="1489754005000" expanded="true" signature="561:619" ph="..." />
+            <marker date="1489754005000" expanded="true" signature="2088:2117" ph="..." />
+            <marker date="1489754005000" expanded="true" signature="2205:2233" ph="..." />
+            <marker date="1489754005000" expanded="true" signature="2484:2512" ph="..." />
+            <marker date="1489754005000" expanded="true" signature="2800:2828" ph="..." />
+            <marker date="1489754005000" expanded="true" signature="2990:3018" ph="..." />
+            <marker date="1489754005000" expanded="true" signature="3556:3597" ph="..." />
+            <marker date="1489754005000" expanded="true" signature="4372:4414" ph="..." />
+            <marker date="1489754005000" expanded="true" signature="4959:4994" ph="..." />
+            <marker date="1489754005000" expanded="true" signature="5046:5133" ph="..." />
+            <marker date="1489754005000" expanded="true" signature="5288:5338" ph="..." />
+            <marker date="1489754005000" expanded="true" signature="5288:5339" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/sxhfsj.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
+          <folding>
+            <element signature="n#!!doc;n#openShutManager#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1548">
+          <caret line="279" column="7" selection-start-line="279" selection-start-column="7" selection-end-line="279" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/product.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="313" column="17" selection-start-line="313" selection-start-column="9" selection-end-line="313" selection-end-column="22" />
+        <state relative-caret-position="495">
+          <caret line="50" column="98" selection-start-line="50" selection-start-column="98" selection-end-line="50" selection-end-column="98" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -697,39 +721,6 @@
             <element signature="n#style#0;n#div#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/frame.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1590">
-          <caret line="122" column="24" selection-start-line="122" selection-start-column="24" selection-end-line="122" selection-end-column="24" />
-          <folding>
-            <marker date="1489754005000" expanded="true" signature="262:286" ph="..." />
-            <marker date="1489754005000" expanded="true" signature="423:496" ph="..." />
-            <marker date="1489754005000" expanded="true" signature="561:619" ph="..." />
-            <marker date="1489754005000" expanded="true" signature="2088:2117" ph="..." />
-            <marker date="1489754005000" expanded="true" signature="2205:2233" ph="..." />
-            <marker date="1489754005000" expanded="true" signature="2484:2512" ph="..." />
-            <marker date="1489754005000" expanded="true" signature="2800:2828" ph="..." />
-            <marker date="1489754005000" expanded="true" signature="2990:3018" ph="..." />
-            <marker date="1489754005000" expanded="true" signature="3556:3597" ph="..." />
-            <marker date="1489754005000" expanded="true" signature="4372:4414" ph="..." />
-            <marker date="1489754005000" expanded="true" signature="4959:4994" ph="..." />
-            <marker date="1489754005000" expanded="true" signature="5046:5133" ph="..." />
-            <marker date="1489754005000" expanded="true" signature="5288:5338" ph="..." />
-            <marker date="1489754005000" expanded="true" signature="5288:5339" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/sxhfsj.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
-          <folding>
-            <element signature="n#!!doc;n#openShutManager#0" expanded="false" />
           </folding>
         </state>
       </provider>
