@@ -255,6 +255,24 @@
     $(this._targetImage)
       .one($.support.transition.end, $.proxy(this.dispose, this))
       .emulateTransitionEnd(300)
+
+    //console.warn('bingo~');
+    //console.warn(this._targetImage.src);
+    if(this._targetImage.src.split('/').pop() == '1.jpg') {
+      this._targetImage.src='source/gaojiweisheng/1-mv01.png';
+    }
+    if(this._targetImage.src.split('/').pop() == '2-1.jpg') {
+      this._targetImage.src='source/gaojiweisheng/2-m1.png';
+    }
+    if(this._targetImage.src.split('/').pop() == '2-2.jpg') {
+      this._targetImage.src='source/gaojiweisheng/2-w1.png';
+    }
+    if(this._targetImage.src.split('/').pop() == '3-1.jpg') {
+      this._targetImage.src='source/gaojiweisheng/3-m2.png';
+    }
+    if(this._targetImage.src.split('/').pop() == '3-2.jpg') {
+      this._targetImage.src='source/gaojiweisheng/3-w2.png';
+    }
   }
 
   Zoom.prototype.dispose = function () {

@@ -40,8 +40,8 @@ function get_product_imgs(category, items, sources, descs) {
     document.write(ret);
 }
 
-var objs = new Array("weisheng", "putong", "silagai", "yaxuangai", "yeti", "tonghe", "qita")
-var cat_objs = new Array("cat0", "cat1","cat2","cat3", "cat4", "cat5", "cat6")
+var objs = new Array("weisheng", "gaojiweisheng", "putong", "silagai", "yaxuangai", "yeti", "tonghe", "qita")
+var cat_objs = new Array("cat0", "cat1","cat2","cat3", "cat4", "cat5", "cat6", "cat7")
 function show_product(idx) {
     for(var i = 0; i < objs.length; ++i) {
         obj = typeof objs[i] == "string" ? document.getElementById(objs[i]) : objs[i];
@@ -62,4 +62,13 @@ function GetQueryArgValue(name) {
         return  decodeURI(r[2]);
     return null;
     //alert(GetQueryString("from"));
+}
+
+function replace(img, src1, src2) {
+    console.warn("here");
+    var s = img.src;
+    console.warn(s);
+    console.warn(s == src1);
+    img.src = s.split('/').pop() == src1.split('/').pop() ? src2 : src1;
+    console.warn(img.src);
 }
